@@ -1,0 +1,23 @@
+{
+  "name": "ChatGPT",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.5.0",
+    "config": "^3.3.9",
+    "fluent-ffmpeg": "^2.1.2",
+    "openai": "^4.7.1",
+    "telegraf": "^4.13.1"
+  }
+}
